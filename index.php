@@ -86,6 +86,7 @@
 	}
 
 	function unlove() {
+		include("db.php");
 		$login_cookie = $_COOKIE['login'];
 		$publicacaoid = $_GET['unlove'];
 		$data = date("Y/m/d");
